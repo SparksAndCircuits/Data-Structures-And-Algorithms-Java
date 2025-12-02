@@ -2,7 +2,7 @@ package com.learning.dsa.DivideAndConquerAlgorithms;
 
 public class ConvertOneStringToAnother {
     private int findMinOperations(String s1, String s2, int i1, int i2) {
-        if (i1 == s2.length()) {
+        if (i1 == s1.length()) {
             return s2.length() - i2;
         }
 
